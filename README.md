@@ -1,1 +1,3 @@
-# diff-gene-exp
+## Differential in Gene Expression Counts 
+
+The repository contains commented code used to investigate the presence of a differential in gene expression counts in a case control study. The code (found under genexp.R) uses the ExpressionSet class within the Bioconductor package and combines objects into a single standardized structure to allow for easy manipulation of phenotypic data. The code fits a linear model and compares two multiple testing methods for controlling the error rate for differentially expressed genes (Bonferroni correction and the Benjamini-Hochberg method). The 'limma' package is employed to visualise the gene expression data via a correlation heat map.
